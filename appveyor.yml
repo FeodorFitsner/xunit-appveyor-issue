@@ -9,6 +9,6 @@ cache:
   - packages
 
 build_script:
-- ps: .\Build.and.run.tests.ps1
+- powershell .\Build.and.run.tests.ps1
 
 test: off
